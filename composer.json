@@ -1,0 +1,15 @@
+{
+    "name": "edixon-alberto/interface-login",
+    "description": "login basico con php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edixon Alberto",
+            "email": "edixonalbertto@gmail.com"
+        }
+    ],
+    "require": {
+        "jenssegers/blade": "^1.2"
+    }
+}

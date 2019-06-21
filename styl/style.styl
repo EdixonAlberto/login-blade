@@ -1,0 +1,86 @@
+$dark = #23262D
+$purple = #803AB6
+
+dimension()
+    width: arguments
+    height: arguments
+
+body
+    margin: 0
+    padding: 0
+    background: url('../img/paisaje.jpg') no-repeat center top
+    background-size: cover
+    font-family: sans-serif
+    height: 100vh
+
+.login-box a
+    text-decoration: none
+    color: $purple
+    display: block
+    text-align: center
+    margin: 10px
+
+.login-box a:hover
+    color: white
+
+.login-box
+    width: 340px
+    height: 440px
+    background: $dark
+
+    color: white
+    top 55%
+    left: 50%
+    position: absolute
+    transform: translate(-50%, -50%)
+    box-sizing: border-box
+    padding: 100px 30px
+    border-radius: 30px
+
+.login-box .logo
+    dimension: 140px
+    position: absolute
+    top: -80px
+    left calc(50% - 70px)
+    border-radius: 50%
+
+.login-box h1
+    margin: -20px 0 20px 0
+    padding: 0
+    text-align: center
+    font-size: 24px
+
+.login-box label
+    margin: 0
+    padding: 0
+    font-weight: bold
+    display: block
+    margin-bottom: 5px
+
+.login-box input
+    width: 100%
+    margin-bottom: 20px
+    color: black
+    font-size: 18px
+    text-align: center
+
+.login-box input[type="text"],
+.login-box input[type="password"]
+    border: none
+    border-bottom: 1px solid white
+    background: transpatent
+    outline: none
+    height: 38px
+
+.login-box input[type="submit"]
+    border: none
+    outline: none
+    height: 40px
+    background: $purple
+    font-size: 20px
+    color: white
+    border-radius: 20px
+
+.login-box input[type="submit"]:hover
+    filter: brightness(80%)
+    cursor: pointer

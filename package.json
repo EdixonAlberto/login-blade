@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "build": "stylus -w styl/style.styl -o public/css/style.css"
+    }
+}
