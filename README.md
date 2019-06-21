@@ -1,8 +1,8 @@
 # Interface Login
 
-Login basico con php empleando las siguiente tecnologias
+Login basico con **php** utilizando:
 
 - Motor de Plantillas **Blade**
 - Generador de estilos **Style**
 
-![Imagen Login]()
+![Capture Login](./docs/capture.jpg)
