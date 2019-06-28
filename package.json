@@ -1,5 +1,6 @@
 {
     "scripts": {
-        "build": "stylus -w styl/style.styl -o public/css/style.css"
+        "install:styl": "npm install stylus -g",
+        "build:styl": "stylus -w styl/style.styl -o public/css/style.css"
     }
 }
