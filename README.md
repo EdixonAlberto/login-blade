@@ -2,32 +2,29 @@
 
 [![Donate](https://img.shields.io/badge/author-EdixonAlberto-purple.svg)](https://www.linkedin.com/in/edixonalberto)
 [![MIT license](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE.md)
-[![Donate](https://img.shields.io/badge/do-donation-blue.svg)](https://paypal.me/edixonp)
-
-![Twitter Follow](https://img.shields.io/twitter/follow/EdixonAlbertto.svg?style=social)
 ![GitHub followers](https://img.shields.io/github/followers/EdixonAlberto.svg?label=Follow&style=social)
 
-Login basico con **php**, utilizando:
+Login basic with **php**, using:
 
-- Motor de Plantillas `Laravel/Blade`
-- Lenguaje de estilos `Stylus`
+- Templates Engin: `Laravel/Blade`
+- Style Language: `Stylus`
 
 
-### Antes de editar esta plantilla
+### Before editing this template
 
-1. Instala `Laravel/Blade` escribiendo en tu terminal:
+1. Install `Laravel/Blade` : typing in the terminal
 
 ```
     $ composer install
 ```
 
-2. Luego instala `Stylus` escribiendo:
+2. Then install `Stylus` typing:
 
 ```
     $ npm run install:styl
 ```
 
-3. Y por ultimo, inicia el compilador CSS de `Stylus` colocando:
+3. And finally, start the compiler CSS `Stylus` placing:
 
 ```
     $ npm run build:styl
@@ -35,4 +32,4 @@ Login basico con **php**, utilizando:
 
 ### Pre-view
 
-![Capture Login](./docs/capture.jpg)
+![capture-login](./docs/capture.jpg)

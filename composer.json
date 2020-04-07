@@ -1,16 +1,23 @@
 {
-    "name": "edixon-alberto/interface-login",
-    "description": "login basico con php",
-    "type": "project",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Edixon Alberto",
-            "email": "edixonalbertto@gmail.com",
-            "homepage": "https://www.linkedin.com/in/edixonalberto"
-        }
-    ],
-    "require": {
-        "jenssegers/blade": "^1.2"
+  "name": "edixon-alberto/login-blade",
+  "description": "login basic with php, laravel/blade and stylus",
+  "keywords": [
+    "php",
+    "laravel-blade",
+    "stylus",
+    "login",
+    "html5"
+  ],
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Edixon Alberto",
+      "email": "edixonalbertto@gmail.com",
+      "homepage": "https://www.edixonalberto.com"
     }
+  ],
+  "require": {
+    "jenssegers/blade": "^1.2"
+  }
 }
